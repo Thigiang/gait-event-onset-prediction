@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# virtual environment and machine-specific settings
+.venv/
+.env
+
+# patient data and training outputs
+data/
+results/
+*.keras
+*.h5
+*.pkl
+
+# local Oct 2025 results and slides (not published)
+MODEL1/
+MODEL2/
+FinetuneResult.pptx
